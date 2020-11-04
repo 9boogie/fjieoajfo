@@ -176,13 +176,14 @@ module.exports = (db) => {
         Books: 5,
         Toys: 6,
         Media: 7,
-        Appliances: 9,
-        Clothes: 10,
-        Tools: 11,
-        Others: 12,
+        Appliances: 8,
+        Clothes: 9,
+        Tools: 10,
+        Others: 11,
       };
       return ids[name];
     };
+
     const { categoryName } = parseBodyValues;
     const formFieldValues = {
       ...parseBodyValues,
@@ -190,13 +191,14 @@ module.exports = (db) => {
       category_id: getCategoryIdByName(categoryName),
     };
 
+    console.log('formFieldValues', formFieldValues);
+
     addNewProduct(formFieldValues, db)
       .then(({ rows }) => {
         const newProduct = {
           ...rows[0],
           product_id: rows[0].id,
         };
-        console.log('newProduct', newProduct);
         return res.json({
           message: 'New item is added to your Garage!',
           product: newProduct,
