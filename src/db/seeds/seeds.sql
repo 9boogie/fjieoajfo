@@ -30,23 +30,23 @@ values
 insert into garage_sales
   (seller_id, title, cover_photo_url, description, city, province, created_at)
 values
-  (1, 'One Dollar Garage', 'https://garagesale-jaeyoung.s3.amazonaws.com/product-images/1604444084030-money.gif', 'Everything is $1!!! VERY VERY CHEAP!!! YOU MUST COME!!!', 'Vancouver', 'British Columbia', '2020-10-27 08:14:22');
+  (1, 'Beauty products for sale', 'https://i.imgur.com/p0pYOp0.jpg', 'Everything is $1!!! VERY VERY CHEAP!!! TAKE A LOOK!!!', 'Vancouver', 'British Columbia', '2020-10-27 08:14:22');
 insert into garage_sales
   (seller_id, title, cover_photo_url, description, city, province, created_at)
 values
-  (2, 'Jae Garage', 'https://image.freepik.com/free-vector/garage-sale-background_1365-40.jpg', 'Big sale before moving', 'Winnipeg', 'Manitoba', '2020-09-09 14:08:48');
+  (2, 'Jae Garage', 'https://i.imgur.com/M5JdWn4.jpg', 'Big sale before moving', 'Winnipeg', 'Manitoba', '2020-09-09 14:08:48');
 insert into garage_sales
   (seller_id, title, cover_photo_url, description, city, province, created_at)
 values
-  (3, 'One Day Sale', 'https://thumbs.dreamstime.com/z/garage-sale-16863161.jpg', 'Only sale one day!!! COME ASAP!!!!', 'Vancouver', 'British Columbia', '2020-10-30 08:14:22');
+  (3, 'Board Games', 'https://i.imgur.com/BJDjIEl.jpg', 'Board games! Need selling! COME ASAP!!!!', 'Calgary', 'Alberta', '2020-10-30 08:14:22');
 insert into garage_sales
   (seller_id, title, cover_photo_url, description, city, province, created_at)
 values
-  (4, 'Late Halloween Sale', 'https://thumbs.dreamstime.com/z/time-halloween-sale-sale-advertisement-pumpkin-halloween-theme-clean-design-halloween-pumpkin-happy-sale-design-116411801.jpg', 'Time to Prepare upcoming halloween in next year.', 'Vancouver', 'British Columbia', '2020-10-31 08:14:22');
+  (4, 'Plant sale', 'https://i.imgur.com/HC7Bscd.jpg', 'Selling some house plants.', 'Vancouver', 'British Columbia', '2020-10-31 08:14:22');
   insert into garage_sales
   (seller_id, title, cover_photo_url, description, city, province, created_at)
 values
-  (5, 'Happy Garage', 'https://thumbs.dreamstime.com/z/garage-sale-cute-banner-household-items-background-eps-40672201.jpg', 'Come and enjoy my garage sale', 'Calgary', 'Alberta', '2020-09-01 08:14:22');
+  (5, 'Kids toys', 'https://i.imgur.com/Li03xfH.jpg', 'Come and enjoy my garage sale', 'Calgary', 'Alberta', '2020-09-01 08:14:22');
 
 
 
@@ -81,12 +81,13 @@ values
   (1, 'Motorola Phone', 'It is foldable.', 'https://images.theconversation.com/files/107896/original/image-20160112-6996-1jahuzf.JPG?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop', 1.00, false, 1, 2),
   (2, 'Wine glasses', 'Only glasses, not wine!', 'https://thumbs.dreamstime.com/z/wine-glass-15320271.jpg', 14.22, false, 2, 11),
   (2, 'Toy CyberTruck', 'Toy BMW for kids.', 'https://www.tesla.com/xNVh4yUEc3B9/04_Desktop.jpg', 200.75, false, 2, 6),
-  (3, 'Motorola Phone', 'Never Used, It is foldable!', 'https://images.theconversation.com/files/107896/original/image-20160112-6996-1jahuzf.JPG?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop', 100.0, false, 3, 2),
-  (3, 'Toy CyberTruck', 'Toy version of cybertruck from tesla', 'https://www.tesla.com/xNVh4yUEc3B9/04_Desktop.jpg', 57.22, false, 3, 6),
+  (3, 'Scrabble', 'Fun with letters for all the family!', 'https://i.imgur.com/7KWQ8eD.jpg', 10.00, false, 3, 6),
+  (3, 'Bonkers', 'Crazy game that I never really understood', 'https://i.imgur.com/2LKthFV.jpg', 57.22, false, 3, 6),
   (1, 'Smart TV', 'Not turning on. For decoration purpose only', 'https://thumbs.dreamstime.com/z/television-monitor-texture-sky-isolated-white-background-54339475.jpg', 1.00, false, 1, 2),
-  (4, 'Scary RIP Skeleton', 'Decorate your yard with scary tombs', 'https://thumbs.dreamstime.com/z/halloween-decoration-green-lawn-46238098.jpg', 20.05, false, 4, 11),
-  (4, 'Halloween Pumpkin Lamp', 'Halloween Spooky Lamp', 'https://thumbs.dreamstime.com/z/halloween-21654340.jpg', 3.05, false, 4, 11),
-  (4, 'Halloween Table with Skeleton', 'Amazing outdoor table with handsome skeleton gentleman', 'https://thumbs.dreamstime.com/z/halloween-skeleton-decoration-garden-funny-sitting-table-60102020.jpg', 133.05, false, 4, 2);
+  (4, 'Fern', 'Likes lots of water, easy to care for', 'https://i.imgur.com/MwWqMVQ.jpg', 20.00, false, 4, 11),
+  (4, 'Small Cactus', 'Likes lots of sun', 'https://i.imgur.com/N2fU8cG.jpg', 10.00, false, 4, 11),
+  (4, 'Anthurium', 'Nice pink leaves', 'https://i.imgur.com/RQkCHBp.jpg', 18.00, false, 4, 11),
+  (4, 'Tree', 'Small tree with waxy leaves', 'https://i.imgur.com/agUFqEW.jpg', 12.00, false, 4, 11);
 
 
 
